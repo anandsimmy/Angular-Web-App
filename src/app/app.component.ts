@@ -11,5 +11,5 @@ export class AppComponent {
   constructor(private meta: Meta) {
     this.meta.addTag({ name: 'Description', content: 'Notes - My Angular App' });
   }
-  title = 'Notes';
+  title = 'My Angular App';
 }

@@ -1,19 +1,19 @@
-<h2>Notes</h2>
 
-<div>
-  <label>New Note:
-    <input #heroName />
+<br><br>
+<div >
+  <label><span style="color:yellowgreen; font-weight: bold;">Note: </span>
+    <input  style="font-weight: bold; " #heroName />&nbsp; &nbsp;
   </label>
   <!-- (click) passes input value to add() and then clears the input -->
-  <button (click)="add(heroName.value); heroName.value=''">
-    add
+  <button class="button" (click)="add(heroName.value); heroName.value=''">
+   <span style="font-weight: bold;"> Add</span>
   </button>
 </div>
 
-<ul class="heroes">
+<ul class="heroes" >
   <li *ngFor="let hero of heroes">
     <a routerLink="/detail/{{hero.id}}">
-      <span class="badge">{{hero.id}}</span> {{hero.name}}
+      <span class="badge">{{hero.id}}.</span>{{hero.name}}
     </a>
     <button class="delete" title="delete note"
     (click)="delete(hero)">x</button>

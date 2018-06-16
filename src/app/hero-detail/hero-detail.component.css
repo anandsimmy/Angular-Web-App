@@ -3,7 +3,7 @@ label {
   display: inline-block;
   width: 3em;
   margin: .5em 0;
-  color: #607D8B;
+  color: yellowgreen;
   font-weight: bold;
 }
 input {
@@ -14,17 +14,24 @@ input {
 button {
   margin-top: 20px;
   font-family: Arial;
-  background-color: #eee;
+  font-weight: bold;
+  background-color: yellowgreen;
+  color:white;
   border: none;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer; cursor: hand;
 }
 button:hover {
-  background-color: #cfd8dc;
+  background-color: yellowgreen;
+  color:black;
+}
+.first:hover{
+  background-color: yellow;
+  color:black;
 }
 button:disabled {
-  background-color: #eee;
-  color: #ccc;
+  background-color: white;
+  color: blue;
   cursor: auto;
 }

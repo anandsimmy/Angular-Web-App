@@ -1,8 +1,8 @@
 /* HeroSearch private styles */
 .search-result li {
-  border-bottom: 1px solid gray;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   width:195px;
   height: 16px;
   padding: 5px;
@@ -12,11 +12,11 @@
 }
 
 .search-result li:hover {
-  background-color: #607D8B;
+  background-color: yellowgreen;
 }
 
 .search-result li a {
-  color: #888;
+  color: black;
   display: block;
   text-decoration: none;
 }
